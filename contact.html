@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Competency Project</title>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+	</head>
+
+<body>
+<div id="wrapper">
+	<header>
+	<a href="index.html">
+		<h1>Wonderful Cookies</h1>
+	</a>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cookies.html">Cookies</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+	<h2>Wonderful Cookies Orders</h2>
+		<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+			<label for="myFName">*First Name:</label>
+			<input id="myFName" name="myFName" required="required">
+			
+			<label for="myLName">*Last Name:</label>
+			<input id="myLName" name="myLName" required="required">
+			
+			<label for="email">*E-Mail:</label>
+			<input type="email" name="email" required="required">
+			
+			<label for="tel">Phone:</label>
+			<input type="tel" name="tel" maxlength="12">
+			
+			<label for="package">*Package</label>
+			<select size="1" id="package" name="package" required="required">
+			<option value="seclect">Select</option>
+			<option value="Mix-up">Mix-up</option>
+			<option value="Holiday">Holiday Special</option>
+			<option value="Customize">Customize</option>
+			</select><br>
+			
+			<label for="comments">*Comments:</label>
+			<textarea id="comments" name="comments" required="required" rows="2" col="30"></textarea>
+			
+			<input type="submit">
+		</form>
+		<p>Required fields are marked with an asterisk*</p>
+	</main>
+
+	<footer>
+		<small><i>
+			Copyright &copy; 2022 <span class="name">Wonderful Cookies</span><br>
+			Phone: 888-888-8888<br>
+			<a href="mailto:WonderfulCookies@gmail.com">
+			WonderfulCookies@gmail</a>
+		</i></small>
+	</footer>
+</div>
+</body>
+</html>

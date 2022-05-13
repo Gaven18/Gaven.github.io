@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 84%;
+	min-width: 980px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+	border: 1px #000033;
+	background-image: linear-gradient(to bottom, #FFFFFF, purple);
+}
+main {
+	background-color: #FFFFFF;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	margin-left: 200px;
+	overflow: auto;
+}
+header {
+	background-color: #301934;
+	color: #FFFFFF;
+	background-image: url(pictures/cookielogo.jpg);
+	background-repeat: no-repeat;
+	background-size: 10% 90%;
+	padding-top: 30px;
+	background-position: right;
+	height: 120px;
+	text-align: center;
+}
+header a {
+	text-decoration: none;
+}
+header a:link {
+	color: #FFFFFF;
+}
+header a:visited {
+	color: #FFFFFF;
+}
+header a:hover {
+	color: #FFFFFF;
+}
+nav {
+	float: left;
+	padding: 1.5em;
+	font-weight: bold;
+	width: 200px;
+	font-size: 150%;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #301934;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: georgia, "times new roman", serif;
+	font-size: 3em;
+	letter-spacing: .20em;
+}
+h2 {
+	font-family: georgia, "times new roman", serif;
+	color: purple;
+	font-size: 30px;
+}
+p {
+	font-size: 1em;
+}
+img {
+	border-width: 3px;
+	border-style: solid;
+}
+#image {
+	display: flex;
+	flex-wrap: wrap;
+}
+.name {
+	color: #301934;
+	font-weight: bold;
+}
+section {
+	float: left;
+	width: 50%;
+	padding-left: 2em;
+	padding-right: 2em;
+}	
+table {
+	border: 2px;
+	border: solid;
+	border-color: purple;
+	border-collapse: collapse;
+	margin: auto;
+}
+table td {
+	padding: .5em;
+	border: 2px;
+	border-style: solid;
+	border-color: purple;
+	text-align: center;
+}
+table th {
+	padding: .5em;
+	border: 2px;
+	border-style: solid;
+	border-color: purple;
+}
+tr:nth-of-type(odd) {
+	background-color: #CBC3E3;
+}
+#special {
+	clear: both;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding-right: 5px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+select {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {margin-left: 120px; }
+footer {
+	text-align: center;
+	margin-left: 200px;
+	background-color: #FFFFFF;
+}	
